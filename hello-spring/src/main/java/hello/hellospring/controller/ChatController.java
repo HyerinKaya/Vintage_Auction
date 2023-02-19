@@ -80,7 +80,7 @@ public class ChatController {
     }
 
 
-    @MessageMapping("/chat")  //여기로 전송되면 메서드 호출
+    @MessageMapping("/chat")  //소켓메시지 핸들러. 여기로 전송되면 메서드 호출
     public void processMessage(@Payload String msg) throws JsonProcessingException {
 
         ObjectMapper mapper = new ObjectMapper();
