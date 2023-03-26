@@ -1,7 +1,7 @@
 package hello.hellospring.repository;
 
-import hello.hellospring.domain.AuctionBoard;
-import hello.hellospring.domain.AuctionStatus;
+import hello.hellospring.auction.domain.AuctionBoard;
+import hello.hellospring.auction.domain.AuctionStatus;
 import io.lettuce.core.dynamic.annotation.Param;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

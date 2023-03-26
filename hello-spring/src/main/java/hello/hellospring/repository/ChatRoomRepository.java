@@ -1,7 +1,6 @@
 package hello.hellospring.repository;
 
-import hello.hellospring.domain.ChatRoom;
-import lombok.RequiredArgsConstructor;
+import hello.hellospring.chat.domain.ChatRoom;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;

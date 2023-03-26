@@ -2,7 +2,6 @@ package hello.hellospring.repository;
 
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.dto.MemberDuplicateDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

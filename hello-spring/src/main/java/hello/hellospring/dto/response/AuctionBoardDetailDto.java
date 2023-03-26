@@ -1,6 +1,6 @@
 package hello.hellospring.dto.response;
 
-import hello.hellospring.domain.AuctionBoard;
+import hello.hellospring.auction.domain.AuctionBoard;
 import lombok.Data;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package hello.hellospring.dto.request;
 
-import hello.hellospring.domain.AuctionBoard;
+import hello.hellospring.auction.domain.AuctionBoard;
 import hello.hellospring.domain.Item;
 import lombok.Data;
 import lombok.Getter;

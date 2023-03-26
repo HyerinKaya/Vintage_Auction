@@ -1,8 +1,7 @@
 package hello.hellospring.repository;
 
-import hello.hellospring.domain.ChatMessage;
+import hello.hellospring.chat.domain.ChatMessage;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;

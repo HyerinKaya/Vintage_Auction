@@ -1,6 +1,8 @@
 package hello.hellospring.config;
 
 
+import hello.hellospring.auction.domain.AuctionBoard;
+import hello.hellospring.auction.domain.AuctionStatus;
 import hello.hellospring.domain.*;
 import hello.hellospring.repository.AuctionBoardRepository;
 import hello.hellospring.repository.BidRecordRepository;

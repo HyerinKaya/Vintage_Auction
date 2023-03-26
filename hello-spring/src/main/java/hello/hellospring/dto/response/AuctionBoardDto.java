@@ -1,7 +1,7 @@
 package hello.hellospring.dto.response;
 
 
-import hello.hellospring.domain.AuctionBoard;
+import hello.hellospring.auction.domain.AuctionBoard;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

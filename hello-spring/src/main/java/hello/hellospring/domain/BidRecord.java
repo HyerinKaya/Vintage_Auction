@@ -1,6 +1,8 @@
 package hello.hellospring.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import hello.hellospring.auction.domain.AuctionBoard;
+import hello.hellospring.auction.domain.AuctionStatus;
 import lombok.Getter;
 import lombok.Setter;
 
