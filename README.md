@@ -1,5 +1,15 @@
 ### 프로젝트 구성
 
+---
+![dataflow](./dataflow.png)
+![home](./home.png)
+
+### 진행 방식
+
+---
+![sprint_kanban](./sprint_kanban.png)
+
+
 ### 기능 정의
 
 ---
