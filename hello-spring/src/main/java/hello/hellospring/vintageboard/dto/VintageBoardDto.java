@@ -1,6 +1,6 @@
 package hello.hellospring.vintageboard.dto;
 
-import hello.hellospring.domain.VintageBoard;
+import hello.hellospring.vintageboard.domain.VintageBoard;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

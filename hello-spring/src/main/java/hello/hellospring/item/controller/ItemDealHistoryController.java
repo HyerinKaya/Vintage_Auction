@@ -1,7 +1,7 @@
 package hello.hellospring.item.controller;
 
-import hello.hellospring.domain.ItemDealHistory;
-import hello.hellospring.dto.response.ItemDealHistoryDto;
+import hello.hellospring.item.domain.ItemDealHistory;
+import hello.hellospring.item.dto.ItemDealHistoryDto;
 import hello.hellospring.item.service.ItemDealHistoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

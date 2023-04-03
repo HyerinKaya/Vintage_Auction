@@ -3,10 +3,12 @@ package hello.hellospring.config;
 
 import hello.hellospring.auction.domain.AuctionBoard;
 import hello.hellospring.auction.domain.AuctionStatus;
+import hello.hellospring.auction.domain.BidRecord;
 import hello.hellospring.domain.*;
-import hello.hellospring.repository.AuctionBoardRepository;
-import hello.hellospring.repository.BidRecordRepository;
-import hello.hellospring.repository.MemberRepository;
+import hello.hellospring.auction.repository.AuctionBoardRepository;
+import hello.hellospring.auction.repository.BidRecordRepository;
+import hello.hellospring.item.domain.ItemStatus;
+import hello.hellospring.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.DefaultTypedTuple;
 import org.springframework.data.redis.core.RedisTemplate;

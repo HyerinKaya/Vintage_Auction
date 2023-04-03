@@ -1,7 +1,7 @@
 package hello.hellospring.auction.service;
 
-import hello.hellospring.dto.request.BidRequestDto;
-import hello.hellospring.dto.response.BidResponseDto;
+import hello.hellospring.auction.dto.BidRequestDto;
+import hello.hellospring.auction.dto.BidResponseDto;
 
 public interface BidService {
     BidResponseDto bidSave(BidRequestDto bidRequestDto);

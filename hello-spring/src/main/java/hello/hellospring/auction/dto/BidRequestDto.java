@@ -1,4 +1,4 @@
-package hello.hellospring.dto.request;
+package hello.hellospring.auction.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

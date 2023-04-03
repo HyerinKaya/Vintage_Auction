@@ -2,7 +2,7 @@ package hello.hellospring.member.controller;
 
 import hello.hellospring.domain.Member;
 import hello.hellospring.member.dto.MemberSigninDto;
-import hello.hellospring.dto.response.LoginMemberDto;
+import hello.hellospring.member.dto.LoginMemberDto;
 import hello.hellospring.member.service.LoginService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

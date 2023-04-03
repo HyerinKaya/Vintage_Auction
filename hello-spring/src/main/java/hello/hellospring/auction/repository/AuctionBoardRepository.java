@@ -1,4 +1,4 @@
-package hello.hellospring.repository;
+package hello.hellospring.auction.repository;
 
 import hello.hellospring.auction.domain.AuctionBoard;
 import hello.hellospring.auction.domain.AuctionStatus;

@@ -1,6 +1,6 @@
-package hello.hellospring.dto.response;
+package hello.hellospring.vintageboard.dto;
 
-import hello.hellospring.domain.UploadFile;
+import hello.hellospring.vintageboard.domain.UploadFile;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

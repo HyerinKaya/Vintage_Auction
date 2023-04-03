@@ -1,7 +1,7 @@
-package hello.hellospring.dto.request;
+package hello.hellospring.auction.dto;
 
 import hello.hellospring.auction.domain.AuctionBoard;
-import hello.hellospring.domain.Item;
+import hello.hellospring.item.domain.Item;
 import lombok.Data;
 import lombok.Getter;
 

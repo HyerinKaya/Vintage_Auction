@@ -1,7 +1,7 @@
 package hello.hellospring.auction.service;
 
 import hello.hellospring.auction.domain.AuctionBoard;
-import hello.hellospring.dto.request.AuctionBoardForm;
+import hello.hellospring.auction.dto.AuctionBoardForm;
 import org.springframework.data.domain.Page;
 import org.springframework.web.multipart.MultipartFile;
 

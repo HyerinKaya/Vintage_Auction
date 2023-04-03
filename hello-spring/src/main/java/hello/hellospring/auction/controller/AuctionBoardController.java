@@ -1,11 +1,11 @@
 package hello.hellospring.auction.controller;
 
 import hello.hellospring.auction.domain.AuctionBoard;
-import hello.hellospring.dto.request.AuctionBoardForm;
-import hello.hellospring.dto.response.AuctionBoardDetailDto;
-import hello.hellospring.dto.response.AuctionBoardDto;
-import hello.hellospring.dto.response.AuctionResult;
-import hello.hellospring.dto.response.Result;
+import hello.hellospring.auction.dto.AuctionBoardForm;
+import hello.hellospring.auction.dto.AuctionBoardDetailDto;
+import hello.hellospring.auction.dto.AuctionBoardDto;
+import hello.hellospring.auction.dto.AuctionResult;
+import hello.hellospring.vintageboard.dto.Result;
 import hello.hellospring.auction.service.AuctionService;
 import hello.hellospring.item.service.ItemService;
 import lombok.RequiredArgsConstructor;

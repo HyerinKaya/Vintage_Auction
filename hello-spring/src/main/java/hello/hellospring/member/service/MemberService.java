@@ -2,9 +2,9 @@ package hello.hellospring.member.service;
 
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.dto.MemberInfoDto;
-import hello.hellospring.dto.request.MemberSignupDto;
-import hello.hellospring.dto.request.MemberUpdateDto;
+import hello.hellospring.member.dto.MemberInfoDto;
+import hello.hellospring.member.dto.MemberSignupDto;
+import hello.hellospring.member.dto.MemberUpdateDto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

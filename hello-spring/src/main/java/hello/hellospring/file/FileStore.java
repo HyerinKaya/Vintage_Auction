@@ -1,7 +1,6 @@
 package hello.hellospring.file;
 
-import hello.hellospring.domain.UploadFile;
-import lombok.NoArgsConstructor;
+import hello.hellospring.vintageboard.domain.UploadFile;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;

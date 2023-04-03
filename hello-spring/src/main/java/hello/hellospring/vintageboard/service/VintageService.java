@@ -1,9 +1,8 @@
 package hello.hellospring.vintageboard.service;
 
-import hello.hellospring.domain.VintageBoard;
-import hello.hellospring.dto.request.VintageBordForm;
+import hello.hellospring.vintageboard.domain.VintageBoard;
+import hello.hellospring.vintageboard.dto.VintageBordForm;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

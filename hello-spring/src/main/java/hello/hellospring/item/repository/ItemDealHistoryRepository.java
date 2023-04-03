@@ -1,6 +1,6 @@
-package hello.hellospring.repository;
+package hello.hellospring.item.repository;
 
-import hello.hellospring.domain.ItemDealHistory;
+import hello.hellospring.item.domain.ItemDealHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

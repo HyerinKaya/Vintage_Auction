@@ -1,4 +1,4 @@
-package hello.hellospring.dto.response;
+package hello.hellospring.auction.dto;
 
 import lombok.*;
 

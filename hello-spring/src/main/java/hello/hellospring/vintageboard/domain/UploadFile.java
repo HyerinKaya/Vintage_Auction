@@ -1,6 +1,7 @@
-package hello.hellospring.domain;
+package hello.hellospring.vintageboard.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import hello.hellospring.item.domain.Item;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,9 +1,6 @@
 package hello.hellospring.item.service;
 
-import hello.hellospring.domain.Item;
-import hello.hellospring.domain.VintageBoard;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+import hello.hellospring.item.domain.Item;
 
 import java.util.List;
 

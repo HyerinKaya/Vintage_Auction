@@ -1,7 +1,9 @@
-package hello.hellospring.domain;
+package hello.hellospring.item.domain;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import hello.hellospring.auction.domain.AuctionBoard;
+import hello.hellospring.vintageboard.domain.UploadFile;
+import hello.hellospring.vintageboard.domain.VintageBoard;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

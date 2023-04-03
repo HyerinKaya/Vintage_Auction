@@ -1,7 +1,7 @@
 package hello.hellospring.vintageboard.repository;
 
 
-import hello.hellospring.domain.VintageBoard;
+import hello.hellospring.vintageboard.domain.VintageBoard;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

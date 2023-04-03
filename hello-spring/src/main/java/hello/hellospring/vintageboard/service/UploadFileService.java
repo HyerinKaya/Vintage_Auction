@@ -1,6 +1,6 @@
 package hello.hellospring.vintageboard.service;
 
-import hello.hellospring.domain.UploadFile;
+import hello.hellospring.vintageboard.domain.UploadFile;
 
 import java.util.List;
 

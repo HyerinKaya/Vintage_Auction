@@ -2,8 +2,7 @@ package hello.hellospring.auction.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import hello.hellospring.domain.BidRecord;
-import hello.hellospring.domain.Item;
+import hello.hellospring.item.domain.Item;
 import hello.hellospring.domain.Member;
 import lombok.Builder;
 import lombok.Getter;

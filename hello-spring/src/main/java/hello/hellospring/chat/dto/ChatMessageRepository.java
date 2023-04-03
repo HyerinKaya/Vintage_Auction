@@ -1,4 +1,4 @@
-package hello.hellospring.repository;
+package hello.hellospring.chat.dto;
 
 import hello.hellospring.chat.domain.ChatMessage;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,6 +1,6 @@
-package hello.hellospring.dto.response;
+package hello.hellospring.item.dto;
 
-import hello.hellospring.domain.ItemDealHistory;
+import hello.hellospring.item.domain.ItemDealHistory;
 import lombok.Data;
 
 @Data

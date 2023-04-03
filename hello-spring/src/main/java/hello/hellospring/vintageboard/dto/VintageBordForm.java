@@ -1,14 +1,12 @@
-package hello.hellospring.dto.request;
+package hello.hellospring.vintageboard.dto;
 
-import hello.hellospring.domain.Item;
-import hello.hellospring.domain.VintageBoard;
+import hello.hellospring.item.domain.Item;
+import hello.hellospring.vintageboard.domain.VintageBoard;
 import lombok.Data;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
-import java.util.List;
 
 @Data
 public class VintageBordForm {

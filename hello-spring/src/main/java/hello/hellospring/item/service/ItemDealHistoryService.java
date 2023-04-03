@@ -1,6 +1,6 @@
 package hello.hellospring.item.service;
 
-import hello.hellospring.domain.ItemDealHistory;
+import hello.hellospring.item.domain.ItemDealHistory;
 
 public interface ItemDealHistoryService {
 

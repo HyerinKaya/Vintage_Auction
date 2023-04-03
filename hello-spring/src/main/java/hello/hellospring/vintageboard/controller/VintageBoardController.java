@@ -1,9 +1,9 @@
 package hello.hellospring.vintageboard.controller;
 
 
-import hello.hellospring.domain.VintageBoard;
-import hello.hellospring.dto.request.VintageBordForm;
-import hello.hellospring.dto.response.Result;
+import hello.hellospring.vintageboard.domain.VintageBoard;
+import hello.hellospring.vintageboard.dto.VintageBordForm;
+import hello.hellospring.vintageboard.dto.Result;
 import hello.hellospring.vintageboard.dto.VintageBoardDetailDto;
 import hello.hellospring.vintageboard.dto.VintageBoardDto;
 import hello.hellospring.item.service.ItemService;

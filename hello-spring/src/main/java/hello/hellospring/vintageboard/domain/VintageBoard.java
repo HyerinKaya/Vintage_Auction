@@ -1,7 +1,11 @@
-package hello.hellospring.domain;
+package hello.hellospring.vintageboard.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import hello.hellospring.auction.domain.BaseTimeEntity;
+import hello.hellospring.domain.Member;
+import hello.hellospring.item.domain.Item;
+import hello.hellospring.item.domain.ItemDealHistory;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +17,7 @@ import javax.persistence.*;
 @Table(name = "vintageboard")
 @NoArgsConstructor
 @Getter @Setter
-public class VintageBoard extends BaseTimeEntity{
+public class VintageBoard extends BaseTimeEntity {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long vintageId;
     private String vintageTitle;

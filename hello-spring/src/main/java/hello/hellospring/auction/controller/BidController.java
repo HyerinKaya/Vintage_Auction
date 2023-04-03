@@ -1,7 +1,7 @@
 package hello.hellospring.auction.controller;
 
-import hello.hellospring.dto.request.BidRequestDto;
-import hello.hellospring.dto.response.BidResponseDto;
+import hello.hellospring.auction.dto.BidRequestDto;
+import hello.hellospring.auction.dto.BidResponseDto;
 import hello.hellospring.auction.service.BidService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

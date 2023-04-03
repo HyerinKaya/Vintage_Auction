@@ -1,4 +1,4 @@
-package hello.hellospring.dto;
+package hello.hellospring.member.dto;
 
 import hello.hellospring.domain.Member;
 import lombok.Builder;

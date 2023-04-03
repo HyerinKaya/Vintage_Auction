@@ -1,17 +1,17 @@
 package hello.hellospring.vintageboard.service;
 
 
-import hello.hellospring.domain.Item;
+import hello.hellospring.item.domain.Item;
 import hello.hellospring.domain.Member;
-import hello.hellospring.domain.UploadFile;
-import hello.hellospring.domain.VintageBoard;
-import hello.hellospring.dto.request.VintageBordForm;
+import hello.hellospring.vintageboard.domain.UploadFile;
+import hello.hellospring.vintageboard.domain.VintageBoard;
+import hello.hellospring.vintageboard.dto.VintageBordForm;
 
 import hello.hellospring.exception.UnauthorizedException;
 import hello.hellospring.file.FileStore;
 
-import hello.hellospring.repository.ItemRepository;
-import hello.hellospring.repository.MemberRepository;
+import hello.hellospring.item.repository.ItemRepository;
+import hello.hellospring.member.repository.MemberRepository;
 import hello.hellospring.vintageboard.repository.UploadFileRepository;
 import hello.hellospring.vintageboard.repository.VintageRepository;
 import lombok.RequiredArgsConstructor;

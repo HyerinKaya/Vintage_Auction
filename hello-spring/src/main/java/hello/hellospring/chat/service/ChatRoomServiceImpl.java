@@ -1,12 +1,12 @@
 package hello.hellospring.chat.service;
 
 import hello.hellospring.chat.domain.ChatRoom;
-import hello.hellospring.domain.Item;
+import hello.hellospring.item.domain.Item;
 import hello.hellospring.domain.Member;
-import hello.hellospring.domain.VintageBoard;
-import hello.hellospring.repository.ChatRoomRepository;
-import hello.hellospring.repository.ItemRepository;
-import hello.hellospring.repository.MemberRepository;
+import hello.hellospring.vintageboard.domain.VintageBoard;
+import hello.hellospring.chat.dto.ChatRoomRepository;
+import hello.hellospring.item.repository.ItemRepository;
+import hello.hellospring.member.repository.MemberRepository;
 import hello.hellospring.vintageboard.repository.VintageRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

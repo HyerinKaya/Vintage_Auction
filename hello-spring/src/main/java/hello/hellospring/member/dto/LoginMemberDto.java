@@ -1,4 +1,4 @@
-package hello.hellospring.dto.response;
+package hello.hellospring.member.dto;
 
 import hello.hellospring.domain.Member;
 import lombok.Data;

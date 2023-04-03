@@ -1,9 +1,9 @@
 package hello.hellospring.member.controller;
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.dto.MemberInfoDto;
-import hello.hellospring.dto.request.MemberSignupDto;
-import hello.hellospring.dto.request.MemberUpdateDto;
+import hello.hellospring.member.dto.MemberInfoDto;
+import hello.hellospring.member.dto.MemberSignupDto;
+import hello.hellospring.member.dto.MemberUpdateDto;
 import hello.hellospring.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

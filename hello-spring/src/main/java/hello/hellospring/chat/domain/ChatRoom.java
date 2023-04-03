@@ -1,7 +1,7 @@
 package hello.hellospring.chat.domain;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import hello.hellospring.domain.Item;
+import hello.hellospring.item.domain.Item;
 import hello.hellospring.domain.Member;
 import lombok.*;
 

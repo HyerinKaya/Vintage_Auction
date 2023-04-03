@@ -2,11 +2,11 @@ package hello.hellospring.member.service;
 
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.dto.MemberInfoDto;
-import hello.hellospring.dto.request.MemberSignupDto;
+import hello.hellospring.member.dto.MemberInfoDto;
+import hello.hellospring.member.dto.MemberSignupDto;
 
-import hello.hellospring.dto.request.MemberUpdateDto;
-import hello.hellospring.repository.MemberRepository;
+import hello.hellospring.member.dto.MemberUpdateDto;
+import hello.hellospring.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.beans.factory.annotation.Value;
