@@ -1,5 +1,6 @@
 package hello.hellospring.config;
 
+import hello.hellospring.chat.domain.ChatMessage;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -24,12 +25,12 @@ public class KafkaConfig {
 
     //Sender config
     @Bean
-    public ProducerFactory<String, MessageModel> producerFactory() {
-        return new DefaultKafkaProducerFactory<>(producerConfigs(), new StringSerializer(), new JsonSerializer<MessageModel>());
+    public ProducerFactory<String, ChatMessage> producerFactory() {
+        return new DefaultKafkaProducerFactory<>(producerConfigs(), new StringSerializer(), new JsonSerializer<ChatMessage>());
     }
 
     @Bean
-    public KafkaTemplate<String, MessageModel> kafkaTemplate() {
+    public KafkaTemplate<String, ChatMessage> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
 
@@ -45,14 +46,14 @@ public class KafkaConfig {
 
     //Receiver config
     @Bean
-    public ConcurrentKafkaListenerContainerFactory<String, MessageModel> kafkaListenerContainerFactory() {
-        ConcurrentKafkaListenerContainerFactory<String, MessageModel> factory = new ConcurrentKafkaListenerContainerFactory<>();
+    public ConcurrentKafkaListenerContainerFactory<String, ChatMessage> kafkaListenerContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<String, ChatMessage> factory = new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactory());
         return factory;
     }
     @Bean
-    public ConsumerFactory<String, MessageModel> consumerFactory() {
-        return new DefaultKafkaConsumerFactory<>(consumerConfigs(), new StringDeserializer(), new JsonDeserializer<>(MessageModel.class));
+    public ConsumerFactory<String, ChatMessage> consumerFactory() {
+        return new DefaultKafkaConsumerFactory<>(consumerConfigs(), new StringDeserializer(), new JsonDeserializer<>(ChatMessage.class));
     }
     @Bean
     public Map<String, Object> consumerConfigs() {
